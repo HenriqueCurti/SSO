@@ -8,6 +8,8 @@ RUN apt-get update && apt-get install -y openssl && rm -rf /var/lib/apt/lists/*
 
 RUN npm install
 
+RUN npx prisma generate
+
 COPY . .
 
 RUN npm run build
