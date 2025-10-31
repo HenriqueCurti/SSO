@@ -19,7 +19,7 @@ const options: swaggerJsdoc.Options = {
         description: "Servidor de desenvolvimento",
       },
       {
-        url: "https://api.production.com",
+        url: "https://sso-auth-qg2h.onrender.com/",
         description: "Servidor de produção",
       },
     ],
